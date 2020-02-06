@@ -1,0 +1,36 @@
+#include<iostream.h>
+#include<conio.h>
+struct Node
+{
+    int data;
+    Node* next;
+}
+
+void Insert(int x)
+{
+    Node* temp=new Node();
+    temp->data=x;
+    temp->next=head;
+    head=temp;
+}
+
+void Print()
+{
+    Node* temp=head;
+    while(temp!=NULL)
+    {
+        cout<<temp->data;
+        temp=temp->next;
+    }
+  cout<<endl;
+}
+
+void main()
+{
+    head=NULL;
+    Insert(1);
+    Insert(2);
+    Insert(3);
+    Print()
+    getch();
+}
