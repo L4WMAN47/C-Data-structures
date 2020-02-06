@@ -1,0 +1,8 @@
+1. Linked list is a linear data structure.
+2. In Linked list, memory is allocated during run-time where as in the case of arrays, memory is allocated during
+    compile time.
+3. Inserting a new element in linked list is easier as compared to arrays as we have to create space for insertion.
+4. The size of array is fixed whereas, the size of linked list is flexible.
+5. Elements of array are stored at a contiguous location,whereas the elements of linked list are linked uing pointers.
+6. In Linked list each element is assigned a memory address randomly.The memory block of one element generally contains
+    the data and memory location of next pointer.
